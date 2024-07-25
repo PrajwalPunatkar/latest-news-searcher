@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Varela", sans-serif;
+}
+
+.head-sec{
+    height: 250px;
+    width: 100%;
+    padding: 20px;
+    background-color: #B4E380;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.first{
+    width: 50%;
+    margin: 0 auto;
+}
+
+h2 , input , button{
+    position: relative;
+    top: 70px;
+    left: 300px;
+}
+
+.heading{
+    font-size: 30px;
+}
+
+.searchNews{
+    height: 50px;
+    width: 370px;
+    margin-top: 30px;
+    margin-left: -45px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.searchNews::placeholder {
+    font-family: "Varela", sans-serif;
+    ;
+    color: #888;
+    font-size: 14px;
+}
+
+.search-Btn{
+    position: relative;
+    height: 50px;
+    width: 75px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #88D66C;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-left: -55px;
+}
+
+main{
+    padding: 20px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.box{
+    height: 450px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 10px;
+    font-family: "Varela", sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
+
+.box img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.head-Line{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+.paragraph{
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
